@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AD1E944B1F2A2C34002F8493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E944A1F2A2C34002F8493 /* AppDelegate.swift */; };
-		AD1E944D1F2A2C34002F8493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E944C1F2A2C34002F8493 /* ViewController.swift */; };
 		AD1E94501F2A2C34002F8493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1E944E1F2A2C34002F8493 /* Main.storyboard */; };
 		AD1E94531F2A2C34002F8493 /* Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1E94511F2A2C34002F8493 /* Final_Project.xcdatamodeld */; };
 		AD1E94551F2A2C34002F8493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1E94541F2A2C34002F8493 /* Assets.xcassets */; };
 		AD1E94581F2A2C34002F8493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1E94561F2A2C34002F8493 /* LaunchScreen.storyboard */; };
 		AD1E94631F2A2C34002F8493 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E94621F2A2C34002F8493 /* Final_ProjectTests.swift */; };
 		AD1E946E1F2A2C34002F8493 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E946D1F2A2C34002F8493 /* Final_ProjectUITests.swift */; };
+		AD1E947C1F2A2D36002F8493 /* ConversionCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E947B1F2A2D36002F8493 /* ConversionCalculatorViewController.swift */; };
+		AD40583F1F2B93970005CB76 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40583E1F2B93970005CB76 /* Converter.swift */; };
+		AD4058411F2BDA560005CB76 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4058401F2BDA560005CB76 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		AD1E94471F2A2C34002F8493 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1E944A1F2A2C34002F8493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD1E944C1F2A2C34002F8493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD1E944F1F2A2C34002F8493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD1E94521F2A2C34002F8493 /* Final_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Project.xcdatamodel; sourceTree = "<group>"; };
 		AD1E94541F2A2C34002F8493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		AD1E94691F2A2C34002F8493 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1E946D1F2A2C34002F8493 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		AD1E946F1F2A2C34002F8493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1E947B1F2A2D36002F8493 /* ConversionCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorViewController.swift; sourceTree = "<group>"; };
+		AD40583E1F2B93970005CB76 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		AD4058401F2BDA560005CB76 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		AD1E94491F2A2C34002F8493 /* Final Project */ = {
 			isa = PBXGroup;
 			children = (
+				AD40583D1F2B934C0005CB76 /* Model */,
 				AD1E944A1F2A2C34002F8493 /* AppDelegate.swift */,
-				AD1E944C1F2A2C34002F8493 /* ViewController.swift */,
 				AD1E944E1F2A2C34002F8493 /* Main.storyboard */,
 				AD1E94541F2A2C34002F8493 /* Assets.xcassets */,
 				AD1E94561F2A2C34002F8493 /* LaunchScreen.storyboard */,
 				AD1E94591F2A2C34002F8493 /* Info.plist */,
 				AD1E94511F2A2C34002F8493 /* Final_Project.xcdatamodeld */,
+				AD1E947B1F2A2D36002F8493 /* ConversionCalculatorViewController.swift */,
+				AD4058401F2BDA560005CB76 /* AboutViewController.swift */,
 			);
 			path = "Final Project";
 			sourceTree = "<group>";
@@ -126,6 +132,14 @@
 				AD1E946F1F2A2C34002F8493 /* Info.plist */,
 			);
 			path = "Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+		AD40583D1F2B934C0005CB76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD40583E1F2B93970005CB76 /* Converter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1E94531F2A2C34002F8493 /* Final_Project.xcdatamodeld in Sources */,
-				AD1E944D1F2A2C34002F8493 /* ViewController.swift in Sources */,
+				AD1E947C1F2A2D36002F8493 /* ConversionCalculatorViewController.swift in Sources */,
+				AD40583F1F2B93970005CB76 /* Converter.swift in Sources */,
+				AD4058411F2BDA560005CB76 /* AboutViewController.swift in Sources */,
 				AD1E944B1F2A2C34002F8493 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +527,7 @@
 				AD1E94741F2A2C34002F8493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1E94751F2A2C34002F8493 /* Build configuration list for PBXNativeTarget "Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +536,7 @@
 				AD1E94771F2A2C34002F8493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1E94781F2A2C34002F8493 /* Build configuration list for PBXNativeTarget "Final ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +545,7 @@
 				AD1E947A1F2A2C34002F8493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
